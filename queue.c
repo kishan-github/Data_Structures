@@ -24,6 +24,8 @@ queue_t* create_queue()
 	queue_t* temp = malloc(sizeof(queue_t));
 	
 	temp->front = temp->rear = NULL;
+	
+	return temp;
 }
 
 // check if queue is empty.
